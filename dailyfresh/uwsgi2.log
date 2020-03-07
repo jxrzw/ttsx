@@ -1,0 +1,635 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  6 19:29:43 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  6 20:15:58 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  6 20:37:44 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8081).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  6 20:51:15 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/ttsx
+Python main interpreter initialized at 0x1fae4d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1fae4d0 pid: 2933 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 2933)
+spawned uWSGI worker 1 (pid: 2935, cores: 2)
+spawned uWSGI worker 2 (pid: 2936, cores: 2)
+spawned uWSGI worker 3 (pid: 2937, cores: 2)
+spawned uWSGI worker 4 (pid: 2938, cores: 2)
+[pid: 2937|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 701 bytes} [Fri Mar  6 20:51:38 2020] GET /admin/ => generated 0 bytes in 653 msecs (HTTP/1.1 302) 7 headers in 265 bytes (1 switches on core 0)
+[pid: 2936|app: 0|req: 1/2] 127.0.0.1 () {40 vars in 695 bytes} [Fri Mar  6 20:51:40 2020] GET /favicon.ico => generated 85 bytes in 571 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 2/3] 127.0.0.1 () {44 vars in 866 bytes} [Fri Mar  6 20:51:46 2020] GET /admin/ => generated 8813 bytes in 186 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 2937|app: 0|req: 3/4] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 20:51:48 2020] GET /admin/jsi18n/ => generated 7684 bytes in 28 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 4/5] 127.0.0.1 () {42 vars in 870 bytes} [Fri Mar  6 20:51:52 2020] GET /admin/goods/indextypegoodsbanner/ => generated 3306 bytes in 74 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 2936|app: 0|req: 2/6] 127.0.0.1 () {42 vars in 835 bytes} [Fri Mar  6 20:51:54 2020] GET /admin/ => generated 8813 bytes in 162 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 2935|app: 0|req: 1/7] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 20:51:56 2020] GET /admin/jsi18n/ => generated 7684 bytes in 628 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 5/8] 127.0.0.1 () {40 vars in 755 bytes} [Fri Mar  6 20:51:58 2020] GET /admin/jsi18n/ => generated 7684 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 2935|app: 0|req: 2/9] 127.0.0.1 () {50 vars in 1156 bytes} [Fri Mar  6 20:52:42 2020] POST /admin/goods/indexpromotionbanner/add/ => generated 27 bytes in 1139 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 2937|app: 0|req: 6/10] 127.0.0.1 () {50 vars in 1156 bytes} [Fri Mar  6 20:54:27 2020] POST /admin/goods/indexpromotionbanner/add/ => generated 27 bytes in 478 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 2937|app: 0|req: 7/11] 127.0.0.1 () {40 vars in 777 bytes} [Fri Mar  6 20:58:04 2020] GET /admin/ => generated 8813 bytes in 124 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/base.py", line 111, in _get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 491, in resolve
+    for pattern in self.url_patterns:
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 533, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/deprecation.py", line 91, in __call__
+    response = response or self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/wsgi.py", line 142, in __call__
+    response = self.get_response(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/base.py", line 78, in get_response
+    response = self._middleware_chain(request)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 36, in inner
+    response = response_for_exception(request, exc)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 90, in response_for_exception
+    response = handle_uncaught_exception(request, get_resolver(get_urlconf()), sys.exc_info())
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/core/handlers/exception.py", line 128, in handle_uncaught_exception
+    callback, param_dict = resolver.resolve_error_handler(500)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 546, in resolve_error_handler
+    callback = getattr(self.urlconf_module, 'handler%s' % view_type, None)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/utils/functional.py", line 37, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/resolvers.py", line 526, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 986, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 969, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 958, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 673, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 665, in exec_module
+  File "<frozen importlib._bootstrap>", line 222, in _call_with_frames_removed
+  File "./dailyfresh/urls.py", line 33, in <module>
+    re_path(r'^user/', include('user.urls', namespace='user')), #商品模块
+  File "/home/python/.virtualenvs/ttsx/lib/python3.5/site-packages/django/urls/conf.py", line 39, in include
+    'Specifying a namespace in include() without providing an app_name '
+django.core.exceptions.ImproperlyConfigured: Specifying a namespace in include() without providing an app_name is not supported. Set the app_name attribute in the included module, or pass a 2-tuple containing the list of patterns and app_name instead.
+[pid: 2938|app: 0|req: 1/12] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 20:58:06 2020] GET /admin/jsi18n/ => generated 0 bytes in 1263 msecs (HTTP/1.1 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 2935|app: 0|req: 3/13] 127.0.0.1 () {40 vars in 775 bytes} [Fri Mar  6 21:03:26 2020] GET /admin => generated 0 bytes in 139 msecs (HTTP/1.1 301) 3 headers in 112 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 8/14] 127.0.0.1 () {42 vars in 870 bytes} [Fri Mar  6 21:03:28 2020] GET /admin/goods/indexpromotionbanner/ => generated 3276 bytes in 93 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 2938|app: 0|req: 2/15] 127.0.0.1 () {40 vars in 777 bytes} [Fri Mar  6 21:03:29 2020] GET /admin/ => generated 8813 bytes in 663 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 2938|app: 0|req: 3/16] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 21:03:31 2020] GET /admin/jsi18n/ => generated 7684 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 9/17] 127.0.0.1 () {42 vars in 840 bytes} [Fri Mar  6 21:03:33 2020] GET /admin/goods/goods/ => generated 5032 bytes in 174 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 2937|app: 0|req: 10/18] 127.0.0.1 () {44 vars in 871 bytes} [Fri Mar  6 21:03:36 2020] GET /admin/goods/goods/ => generated 5032 bytes in 39 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 1 buried after 2 seconds
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Fri Mar  6 21:04:20 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/ttsx
+Python main interpreter initialized at 0xf184d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xf184d0 pid: 3753 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3753)
+spawned uWSGI worker 1 (pid: 3755, cores: 2)
+spawned uWSGI worker 2 (pid: 3756, cores: 2)
+spawned uWSGI worker 3 (pid: 3758, cores: 2)
+spawned uWSGI worker 4 (pid: 3760, cores: 2)
+[pid: 3760|app: 0|req: 1/1] 192.168.190.139 () {42 vars in 820 bytes} [Fri Mar  6 21:08:32 2020] GET /admin/ => generated 0 bytes in 549 msecs (HTTP/1.1 302) 7 headers in 336 bytes (1 switches on core 0)
+[pid: 3755|app: 0|req: 1/2] 192.168.190.139 () {40 vars in 713 bytes} [Fri Mar  6 21:08:34 2020] GET /favicon.ico => generated 85 bytes in 439 msecs (HTTP/1.1 404) 3 headers in 100 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 2/3] 192.168.190.139 () {44 vars in 884 bytes} [Fri Mar  6 21:08:42 2020] GET /admin/ => generated 6083 bytes in 102 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 3/4] 192.168.190.139 () {40 vars in 769 bytes} [Fri Mar  6 21:08:44 2020] GET /admin/jsi18n/ => generated 7684 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 1/5] 192.168.190.139 () {42 vars in 858 bytes} [Fri Mar  6 21:08:47 2020] GET /admin/goods/goods/ => generated 3201 bytes in 700 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 2/6] 192.168.190.139 () {42 vars in 853 bytes} [Fri Mar  6 21:08:49 2020] GET /admin/ => generated 6083 bytes in 41 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 4/7] 192.168.190.139 () {40 vars in 769 bytes} [Fri Mar  6 21:08:50 2020] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 5/8] 192.168.190.139 () {40 vars in 773 bytes} [Fri Mar  6 21:08:52 2020] GET /admin/jsi18n/ => generated 7684 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 6/9] 192.168.190.139 () {50 vars in 1180 bytes} [Fri Mar  6 21:11:43 2020] POST /admin/goods/indexpromotionbanner/add/ => generated 27 bytes in 141 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3758|app: 0|req: 3/10] 127.0.0.1 () {40 vars in 777 bytes} [Fri Mar  6 21:19:38 2020] GET /admin/ => generated 6083 bytes in 222 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3755|app: 0|req: 2/11] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 21:19:41 2020] GET /admin/jsi18n/ => generated 7684 bytes in 325 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 7/12] 127.0.0.1 () {40 vars in 755 bytes} [Fri Mar  6 21:19:46 2020] GET /admin/jsi18n/ => generated 7684 bytes in 286 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 3/13] 127.0.0.1 () {50 vars in 1156 bytes} [Fri Mar  6 21:19:59 2020] POST /admin/goods/indexpromotionbanner/add/ => generated 27 bytes in 418 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 4/14] 127.0.0.1 () {40 vars in 777 bytes} [Fri Mar  6 21:56:27 2020] GET /admin/ => generated 6083 bytes in 263 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3756|app: 0|req: 1/15] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 21:56:29 2020] GET /admin/jsi18n/ => generated 7684 bytes in 1649 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 2/16] 127.0.0.1 () {40 vars in 755 bytes} [Fri Mar  6 21:56:34 2020] GET /admin/jsi18n/ => generated 7684 bytes in 30 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+getting connection
+<fdfs_client.connection.Connection object at 0x7fe72a6abbe0>
+<fdfs_client.fdfs_protol.Tracker_header object at 0x7fe72a6ab550>
+[pid: 3758|app: 0|req: 4/17] 127.0.0.1 () {50 vars in 1156 bytes} [Fri Mar  6 21:59:12 2020] POST /admin/goods/indexpromotionbanner/add/ => generated 0 bytes in 1646 msecs (HTTP/1.1 302) 8 headers in 597 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 5/18] 127.0.0.1 () {42 vars in 782 bytes} [Fri Mar  6 21:59:13 2020] GET /admin/jsi18n/ => generated 7684 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 8/19] 127.0.0.1 () {40 vars in 760 bytes} [Fri Mar  6 21:59:16 2020] GET /admin/jsi18n/ => generated 7684 bytes in 142 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+[pid: 3755|app: 0|req: 6/20] 127.0.0.1 () {50 vars in 1095 bytes} [Fri Mar  6 21:59:20 2020] POST /admin/goods/indexpromotionbanner/1/delete/ => generated 0 bytes in 745 msecs (HTTP/1.1 302) 8 headers in 535 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 5/21] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 21:59:21 2020] GET /admin/jsi18n/ => generated 7684 bytes in 23 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 0)
+设置缓存
+[pid: 3755|app: 0|req: 7/22] 127.0.0.1 () {42 vars in 806 bytes} [Fri Mar  6 21:59:27 2020] GET /index => generated 27 bytes in 49 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+设置缓存
+[pid: 3758|app: 0|req: 6/23] 127.0.0.1 () {42 vars in 806 bytes} [Fri Mar  6 22:20:39 2020] GET /index => generated 27 bytes in 2748 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 3/24] 127.0.0.1 () {40 vars in 777 bytes} [Fri Mar  6 22:20:59 2020] GET /admin/ => generated 7017 bytes in 3219 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3755|app: 0|req: 8/25] 127.0.0.1 () {40 vars in 751 bytes} [Fri Mar  6 22:21:18 2020] GET /admin/jsi18n/ => generated 7684 bytes in 656 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 4/26] 127.0.0.1 () {40 vars in 755 bytes} [Fri Mar  6 22:21:29 2020] GET /admin/jsi18n/ => generated 7684 bytes in 150 msecs (HTTP/1.1 200) 4 headers in 132 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 9/27] 127.0.0.1 () {44 vars in 1204 bytes} [Fri Mar  6 22:22:59 2020] GET /admin/goods/indexpromotionbanner/ => generated 4924 bytes in 927 msecs (HTTP/1.1 200) 8 headers in 479 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 7/28] 127.0.0.1 () {42 vars in 855 bytes} [Sat Mar  7 09:02:09 2020] GET /admin/goods/ => generated 5249 bytes in 12148 msecs (HTTP/1.1 200) 6 headers in 227 bytes (1 switches on core 0)
+[pid: 3755|app: 0|req: 10/29] 127.0.0.1 () {42 vars in 876 bytes} [Sat Mar  7 09:03:01 2020] GET /admin/goods/indextypegoodsbanner/ => generated 3306 bytes in 1121 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+[pid: 3755|app: 0|req: 11/30] 127.0.0.1 () {42 vars in 905 bytes} [Sat Mar  7 09:03:05 2020] GET /admin/goods/indextypegoodsbanner/add/ => generated 7270 bytes in 1928 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 3756|app: 0|req: 5/31] 127.0.0.1 () {42 vars in 928 bytes} [Sat Mar  7 09:03:22 2020] GET /admin/goods/goodssku/add/?_to_field=id&_popup=1 => generated 9081 bytes in 1910 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 0)
+[pid: 3758|app: 0|req: 8/32] 127.0.0.1 () {42 vars in 940 bytes} [Sat Mar  7 09:03:31 2020] GET /admin/goods/goodstype/add/?_to_field=id&_popup=1 => generated 4467 bytes in 2096 msecs (HTTP/1.1 200) 7 headers in 395 bytes (1 switches on core 1)
+getting connection
+<fdfs_client.connection.Connection object at 0x7fe72a6c4a90>
+<fdfs_client.fdfs_protol.Tracker_header object at 0x7fe72a6c4400>
+[pid: 3756|app: 0|req: 6/33] 127.0.0.1 () {50 vars in 1188 bytes} [Sat Mar  7 09:04:14 2020] POST /admin/goods/goodstype/add/?_to_field=id&_popup=1 => generated 387 bytes in 14230 msecs (HTTP/1.1 200) 6 headers in 226 bytes (1 switches on core 1)
+getting connection
+<fdfs_client.connection.Connection object at 0x7fe72a31d390>
+<fdfs_client.fdfs_protol.Tracker_header object at 0x7fe72a31d048>
+[pid: 3756|app: 0|req: 7/34] 127.0.0.1 () {50 vars in 1188 bytes} [Sat Mar  7 09:05:36 2020] POST /admin/goods/goodstype/add/?_to_field=id&_popup=1 => generated 387 bytes in 191 msecs (HTTP/1.1 200) 6 headers in 226 bytes (1 switches on core 0)
+[pid: 3760|app: 0|req: 9/35] 127.0.0.1 () {40 vars in 741 bytes} [Sat Mar  7 09:12:09 2020] GET /user/login => generated 2148 bytes in 7560 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3756|app: 0|req: 8/36] 127.0.0.1 () {42 vars in 806 bytes} [Sat Mar  7 09:14:16 2020] GET /index => generated 27 bytes in 4230 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3760|app: 0|req: 10/37] 127.0.0.1 () {42 vars in 806 bytes} [Sat Mar  7 09:25:49 2020] GET /index => generated 27 bytes in 13361 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 1)
+[pid: 3756|app: 0|req: 9/38] 127.0.0.1 () {42 vars in 806 bytes} [Sat Mar  7 10:31:28 2020] GET /index => generated 27 bytes in 14833 msecs (HTTP/1.1 500) 4 headers in 126 bytes (1 switches on core 0)
+...brutally killing workers...
+Gracefully killing worker 2 (pid: 3756)...
+Gracefully killing worker 4 (pid: 3760)...
+Gracefully killing worker 1 (pid: 3755)...
+Gracefully killing worker 3 (pid: 3758)...
+Sat Mar  7 10:35:01 2020 - worker 1 (pid: 3755) is taking too much time to die...NO MERCY !!!
+worker 1 buried after 1 seconds
+Sat Mar  7 10:35:04 2020 - worker 2 (pid: 3756) is taking too much time to die...NO MERCY !!!
+Sat Mar  7 10:35:04 2020 - worker 3 (pid: 3758) is taking too much time to die...NO MERCY !!!
+Sat Mar  7 10:35:04 2020 - worker 4 (pid: 3760) is taking too much time to die...NO MERCY !!!
+worker 2 buried after 2 seconds
+worker 3 buried after 2 seconds
+worker 4 buried after 2 seconds
+binary reloading uWSGI...
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 3 mapped to socket 0 (127.0.0.1:8081)
+running /home/python/.virtualenvs/ttsx/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi2.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar  7 10:35:05 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8081 fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/ttsx
+Python main interpreter initialized at 0x2684eb0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 2 seconds on interpreter 0x2684eb0 pid: 3753 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 3753)
+spawned uWSGI worker 1 (pid: 8297, cores: 2)
+spawned uWSGI worker 2 (pid: 8301, cores: 2)
+spawned uWSGI worker 3 (pid: 8303, cores: 2)
+spawned uWSGI worker 4 (pid: 8304, cores: 2)
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Mar  7 10:40:03 2020] ***
+compiled with version: 5.4.0 20160609 on 22 February 2020 07:44:43
+os: Linux-4.4.0-174-generic #204-Ubuntu SMP Wed Jan 29 06:41:01 UTC 2020
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/python/Desktop/ttsx/dailyfresh
+writing pidfile to uwsgi2.pid
+detected binary path: /home/python/.virtualenvs/ttsx/bin/uwsgi
+chdir() to /home/python/Desktop/ttsx/dailyfresh
+your processes number limit is 7760
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8081 fd 3
+Python version: 3.5.2 (default, Oct  8 2019, 13:06:37)  [GCC 5.4.0 20160609]
+Set PythonHome to /home/python/.virtualenvs/ttsx
+Python main interpreter initialized at 0x22c84d0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416880 bytes (407 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x22c84d0 pid: 3141 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3141)
+spawned uWSGI worker 1 (pid: 3143, cores: 2)
+spawned uWSGI worker 2 (pid: 3144, cores: 2)
+spawned uWSGI worker 3 (pid: 3146, cores: 2)
+spawned uWSGI worker 4 (pid: 3147, cores: 2)
+Not Found: /favicon.ico
+[pid: 3146|app: 0|req: 1/1] 127.0.0.1 () {40 vars in 719 bytes} [Sat Mar  7 10:40:51 2020] GET /favicon.ico => generated 3079 bytes in 617 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 827 bytes} [Sat Mar  7 10:41:00 2020] GET /user/order/1 => generated 5596 bytes in 889 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+40002
+[pid: 3143|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 10:41:03 2020] POST /order/check => generated 48 bytes in 1321 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+40002
+[pid: 3144|app: 0|req: 2/4] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 10:45:54 2020] POST /order/check => generated 48 bytes in 539 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 3/5] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 10:46:04 2020] POST /order/pay => generated 792 bytes in 156 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3147|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 858 bytes} [Sat Mar  7 10:46:28 2020] GET /user/order/1 => generated 5596 bytes in 1382 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+40002
+[pid: 3144|app: 0|req: 4/7] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 10:46:33 2020] POST /order/check => generated 48 bytes in 386 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 5/8] 127.0.0.1 () {42 vars in 827 bytes} [Sat Mar  7 10:50:59 2020] GET /user/order/1 => generated 5596 bytes in 37 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+40002
+[pid: 3144|app: 0|req: 6/9] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 10:51:01 2020] POST /order/check => generated 48 bytes in 476 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3143|app: 0|req: 2/10] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 11:04:04 2020] POST /order/pay => generated 794 bytes in 434 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 7/11] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 11:19:02 2020] POST /order/pay => generated 796 bytes in 507 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3143|app: 0|req: 3/12] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 11:20:46 2020] POST /order/pay => generated 786 bytes in 206 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 8/13] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:20:53 2020] GET /user/order/2 => generated 5594 bytes in 129 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+40002
+[pid: 3146|app: 0|req: 2/14] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 11:20:54 2020] POST /order/check => generated 48 bytes in 1217 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 3/15] 127.0.0.1 () {42 vars in 817 bytes} [Sat Mar  7 11:21:16 2020] GET /goods/1 => generated 8875 bytes in 873 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 9/16] 127.0.0.1 () {48 vars in 926 bytes} [Sat Mar  7 11:21:19 2020] POST /cart/add => generated 66 bytes in 108 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 10/17] 127.0.0.1 () {42 vars in 815 bytes} [Sat Mar  7 11:21:22 2020] GET /cart/ => generated 12023 bytes in 80 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 11/18] 127.0.0.1 () {42 vars in 813 bytes} [Sat Mar  7 11:22:16 2020] GET /cart/ => generated 12023 bytes in 69 msecs (HTTP/1.1 200) 5 headers in 293 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 4/19] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:27 2020] POST /cart/update => generated 60 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 5/20] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:36 2020] POST /cart/update => generated 66 bytes in 119 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3147|app: 0|req: 2/21] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:41 2020] POST /cart/update => generated 66 bytes in 286 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 12/22] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:42 2020] POST /cart/update => generated 66 bytes in 43 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3147|app: 0|req: 3/23] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:42 2020] POST /cart/update => generated 67 bytes in 114 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3143|app: 0|req: 4/24] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:43 2020] POST /cart/update => generated 67 bytes in 37 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 6/25] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:43 2020] POST /cart/update => generated 67 bytes in 68 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 13/26] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:43 2020] POST /cart/update => generated 67 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3146|app: 0|req: 7/27] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:44 2020] POST /cart/update => generated 67 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3147|app: 0|req: 4/28] 127.0.0.1 () {48 vars in 930 bytes} [Sat Mar  7 11:27:45 2020] POST /cart/update => generated 67 bytes in 18 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+user:2 times:0 stock:995
+[pid: 3144|app: 0|req: 14/29] 127.0.0.1 () {48 vars in 938 bytes} [Sat Mar  7 11:27:52 2020] POST /order/commit => generated 48 bytes in 757 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3147|app: 0|req: 5/30] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:27:59 2020] GET /user/order/3 => generated 5692 bytes in 288 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+40002
+[pid: 3146|app: 0|req: 8/31] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 11:28:01 2020] POST /order/check => generated 48 bytes in 425 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 9/32] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:31:30 2020] GET /user/order/3 => generated 5692 bytes in 75 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+40002
+[pid: 3146|app: 0|req: 10/33] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 11:31:34 2020] POST /order/check => generated 48 bytes in 481 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 11/34] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 11:36:02 2020] POST /order/pay => generated 785 bytes in 418 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 15/35] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:36:07 2020] GET /user/order/3 => generated 5692 bytes in 1481 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 16/36] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:36:09 2020] GET /user/order/3 => generated 5692 bytes in 161 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 17/37] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 11:36:10 2020] GET /user/order/3 => generated 5692 bytes in 157 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+40002
+[pid: 3144|app: 0|req: 18/38] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 11:36:13 2020] POST /order/check => generated 48 bytes in 456 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 12/39] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 11:48:33 2020] POST /order/pay => generated 780 bytes in 606 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 13/40] 127.0.0.1 () {44 vars in 865 bytes} [Sat Mar  7 15:18:33 2020] GET /user/order/3 => generated 5692 bytes in 5557 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+40002
+[pid: 3144|app: 0|req: 19/41] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 15:18:48 2020] POST /order/check => generated 48 bytes in 1526 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3146|app: 0|req: 14/42] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 15:21:49 2020] GET /user/order/3 => generated 5692 bytes in 332 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+40002
+[pid: 3146|app: 0|req: 15/43] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 15:21:50 2020] POST /order/check => generated 48 bytes in 1338 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3146|app: 0|req: 16/44] 127.0.0.1 () {48 vars in 933 bytes} [Sat Mar  7 15:28:59 2020] POST /order/pay => generated 798 bytes in 365 msecs (HTTP/1.1 200) 4 headers in 115 bytes (1 switches on core 0)
+20000
+[pid: 3146|app: 0|req: 17/45] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 15:29:59 2020] POST /order/check => generated 48 bytes in 991 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
+[pid: 3144|app: 0|req: 20/46] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 15:30:27 2020] GET /user/order/2 => generated 5689 bytes in 405 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3144|app: 0|req: 21/47] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 15:30:37 2020] GET /user/order/2 => generated 5689 bytes in 223 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3146|app: 0|req: 19/48] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 15:30:26 2020] GET /user/order/3 => generated 5692 bytes in 17203 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 0)
+[pid: 3146|app: 0|req: 19/49] 127.0.0.1 () {42 vars in 834 bytes} [Sat Mar  7 15:30:30 2020] GET /user/order/3 => generated 5692 bytes in 13785 msecs (HTTP/1.1 200) 5 headers in 292 bytes (1 switches on core 1)
+[pid: 3147|app: 0|req: 6/50] 127.0.0.1 () {48 vars in 937 bytes} [Sat Mar  7 15:30:39 2020] POST /order/check => generated 48 bytes in 31930 msecs (HTTP/1.1 200) 4 headers in 114 bytes (1 switches on core 1)
